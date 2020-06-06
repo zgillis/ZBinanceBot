@@ -1,0 +1,18 @@
+{
+  "name": "ZBinanceBot",
+  "version": "1.0.0",
+  "dependencies": {
+    "cli-table": "^0.3.1",
+    "express": "^4.17.1",
+    "node-binance-us-api": "^0.10.0"
+  },
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "A trading bot and strategy interface for the cryptocurrency exchange Binance.US"
+}
