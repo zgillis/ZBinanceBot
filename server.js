@@ -9,7 +9,7 @@ app.use('/api', general_router.router)
 
 app.get('/', (req, res) => {
     res.contentType('text/html')
-    res.end("<h1>Hello!</h1><p>Welome.</p>")
+    res.end("<h1>Hello!</h1><p>Welcome.</p>")
 })
 
 app.listen(SERVER_PORT, (err) => {

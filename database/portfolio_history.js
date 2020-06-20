@@ -12,7 +12,7 @@ module.exports = (sequelize, type) => {
             allowNull: false
         },
         balances: {
-            type: DataTypes.ARRAY(DataTypes.key)
+            type: DataTypes.JSON
         },
         totalValue: {
             type: DataTypes.FLOAT(11, 2)

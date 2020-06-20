@@ -2,7 +2,7 @@ const Binance = require('node-binance-us-api')
 
 const binance = Binance().options({
     APIKEY: process.env.API_KEY,
-    APISECRET: process.env.P3RIVATE_KEY
+    APISECRET: process.env.PRIVATE_KEY
 });
 
 // TODO: cli-table output https://github.com/Automattic/cli-table
