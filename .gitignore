@@ -2,3 +2,4 @@
 /node_modules/
 /.idea/
 zbinancebot.iml
+.vscode/launch.json
